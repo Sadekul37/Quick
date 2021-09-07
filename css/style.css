@@ -1,0 +1,161 @@
+*{
+  margin: 0;
+  padding-left: 0;
+}
+a{
+  text-decoration: none;
+}
+
+.container{
+  width: 1140px;
+  margin: auto;
+}
+
+/* header section style starts from here */
+
+.header{
+  width: 100%;
+}
+.navbar{
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+  border-bottom: 3px solid #f5f3f3;
+}
+.logo{
+  flex-basis: 20%;
+}
+.menu{
+  flex-basis: 80%;
+  margin-left: 485px;
+  margin-top: 5px;
+}
+.menu ul li{
+  display: inline-block;
+}
+.menu ul li a{
+  list-style: none;
+  margin-right: 40px;
+  font-size: 22px;
+  font-weight: 500;
+  color: blue;
+}
+.menu ul li a:hover{
+  color: violet;
+}
+
+/* header section style ends from here */
+
+
+/* banner  section style starts from here */
+.banner{
+  width: 100%;
+}
+.text{
+  width: 100%;
+  text-align: center;
+  margin: 34px 0;
+}
+.text h1{
+  margin-bottom: 20px;
+  font-size: 35px;
+  line-height: 35px;
+  font-weight: 600;
+}
+ .text h1 span{
+  color: blue;
+ }
+.text p{
+  color: #a7a2a2;
+  font-weight: 400;
+}
+.banner-img{
+  text-align: center;
+}
+.banner-img img{
+  margin-bottom: 20px;
+  height: 370px;
+}
+
+/*banner section style ends from here */
+
+
+/*banner-text section style starts from here */
+
+.bnr-txt{
+  width: 100%
+}
+.bdy-txt{
+  width: 100%;
+  display: flex;
+  margin-bottom: 20px;
+  background: #f9f9f9;
+
+}
+.left{
+  flex-basis: 49%;
+  text-align: right;
+  margin-right: 1%;
+}
+.left h1{
+  font-size: 70px;
+  font-weight: 700;
+  color: #dc1414;
+}
+.left p{
+ color: black;
+ font-weight: 400;
+}
+.right{
+  flex-basis: 49%;
+  margin-left: 1%;
+}
+.right h1{
+  font-size: 50px;
+  font-weight: 550;
+  color: black;
+  line-height: 50px;
+}
+
+/*banner-text section style ends from here */
+
+
+/*img-section  section style starts from here */
+.img-sec{
+  width: 100%;
+  margin-bottom: 30px;
+}
+.photo{
+  width: 100%;
+  display: flex;
+}
+.part-1{
+  flex-basis: 32%;
+  margin-right: 2%;
+}
+.part-2{
+  flex-basis: 32%;
+  margin-right: 2%;
+}
+.part-3{
+  flex-basis: 32%;
+}
+
+/*img-section section style ends from here */
+
+
+/*footer-section section style starts from here */
+.footer{
+  width: 100%;
+}
+.ftr-txt{
+  background: #2341ec;
+  text-align: center;
+  padding: 8px 0;
+}
+.ftr-txt span{
+  color: white;
+  opacity: 70%;
+  font-size: 22px;
+}
+/*footer-section section style ends from here */
